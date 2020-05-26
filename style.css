@@ -1,0 +1,68 @@
+html{
+	background: #1b7dca;
+	font-family: sans-serif;
+}
+
+p{
+	color: #333;
+	text-align: center;
+	font-size: 3em;
+}
+
+.container{
+	/*border: 1pt solid #fff;*/
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container *{
+	font-size: 1.5em;
+}
+
+.city{
+	width: 70%;
+	padding: 10px 0;
+	text-indent: 10px;
+}
+
+.btn{
+	background: transparent;
+	color: #fff;
+	border: 1.5pt solid #f9f9f9;
+	transition: .3s;
+	cursor: pointer;
+	padding: 10px 30px;
+}
+
+.btn:hover{
+	background: #f9f9f9;
+	color: #1b7dca;
+}
+
+/* res */
+
+.res{
+	padding: 20px;
+	color: #333;
+}
+
+.icon{
+	width: fill-content;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.name{
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+
+.temp{
+	font-size: 1.25em;
+}
+
+.desc{
+	font-size: .75em;
+}
