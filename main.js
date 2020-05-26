@@ -1,11 +1,10 @@
 // var city = $('.city').val();
-var key = "41757172d1657fa5f53dc4108c639990";
+var key = "API_KEY";
 
 $(".btn").click(function(){
 
 	$.getJSON("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q="+$('.city').val()+"&units=metric&appid="+key, 
 		function(data){
-			console.log(data);
 
 			var icon = "http://openweathermap.org/img/wn/"+ data.weather[0].icon +"@2x.png";
 			$('.icon').attr('src', icon);
